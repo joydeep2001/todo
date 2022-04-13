@@ -1,0 +1,83 @@
+.container {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.h1 {
+  text-align: center;
+}
+.imgCont {
+  width: 50%;
+  height: 65%;
+  display: flex;
+}
+.formCont {
+  width: 50%;
+  height: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 90px;
+}
+.inputBox {
+  width: 60%;
+  height: 40px;
+  margin: 5px;
+  padding: 10px;
+}
+.btn {
+  width: 228px;
+  height: 45px;
+  margin-top: 5px;
+  background-image: linear-gradient(135deg, #2eed84, #57ff09);
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  transition: color 0.5s;
+}
+.btn:hover {
+  background-image: linear-gradient(135deg, #57ff09, #2eed84);
+  cursor: pointer;
+  transition: color 0.5s;
+}
+.otherInputs {
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  margin: 10px;
+  font-size: 14px;
+}
+.checkboxCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .imgCont,
+  .formCont {
+    width: 360px;
+    flex-direction: column;
+    height: 300px;
+    justify-content: flex-start;
+    padding: 0px;
+  }
+  .formCont {
+    margin-top: -50px;
+  }
+  .inputBox {
+    width: 90%;
+    height: 50px;
+    margin: 5px;
+  }
+  .container {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .otherInputs {
+    width: 90%;
+  }
+}
