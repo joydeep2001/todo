@@ -1,0 +1,57 @@
+.listCont {
+  width: 300px;
+  border: 1px solid rgb(153, 28, 255);
+  padding: 10px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  color: rgb(153, 28, 255);
+}
+.listItems,
+.addTask {
+  display: flex;
+  align-items: center;
+}
+
+.addBtn {
+  margin-right: 10px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.addBtn:hover {
+  cursor: pointer;
+}
+.checkbox {
+  margin-right: 10px;
+  height: 30px;
+  width: 30px;
+
+  overflow: hidden;
+  border-radius: 50%;
+}
+.btnCont {
+  height: 50px;
+  width: 50px;
+}
+.btnCont:hover {
+  cursor: pointer;
+}
+.emptyList {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+  color: rgb(208, 156, 250);
+}
+.addIcon {
+  color: rgb(153, 28, 255);
+  user-select: none;
+}
+.addIcon:hover {
+  cursor: pointer;
+}

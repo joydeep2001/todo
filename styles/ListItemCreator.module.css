@@ -1,0 +1,37 @@
+.wrapper {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.container {
+  height: 260px;
+  width: 300px;
+  background-color: #fff;
+  padding: 10px;
+}
+.header {
+  height: 40px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.text {
+  margin: 7px;
+}
+.txtArea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  background-color: rgb(226, 226, 226);
+  padding: 5px;
+  border: none;
+  outline: none;
+}
